@@ -1,0 +1,58 @@
+
+body{
+    height: 97.9vh;
+    background-image: linear-gradient(#5b8d6d, #7db2cc);
+    background-repeat: no-repeat;
+    
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+
+input{
+    
+    position: relative;
+    top: 90px;
+    height: 50px;
+    width: 150px;
+    top: 10px;
+    font-size: 21px;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    margin-right: 30px;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+input:hover{
+    animation: botao 1s linear infinite;
+}
+@keyframes botao {
+    from{
+        height: 50px ; width: 150px;
+    }
+    to{
+        height: 80px; width: 200px;
+    }
+}
+.king:hover{
+    animation: king 1s linear ;
+    
+}
+@keyframes king {
+    from{
+        width: 20em;
+    }
+    to{
+        width: 21em;
+    }
+}
+
